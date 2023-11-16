@@ -7,18 +7,19 @@ REST API, позволяющий выполнять следующие опер�
     • Удаление статьи из БД.
 
 Структура статьи:
-	ID         int
-	Title      string
-	Content    string
-	AuthorID   int
-	AuthorName string
-	CreatedAt  int64 
+
+	|ID         |int	|
+	|Title      |string	|
+	|Content    |string	|
+	|AuthorID   |int	|
+	|AuthorName |string	|
+	|CreatedAt  |int64 	|
 
 Поддержка БД PostgreSQL, MongoDB.
 
-Выбор с какой БД работать осуществляется в файле cmd/server/server.go
+Выбор с какой БД работать осуществляется в файле **cmd/server/server.go**
 
 Файл schema.sql для создания стркктуры Postgres БД.
 
 ER-диаграмма Postgres БД:
-![Alt text](ER.png)
+![Alt text](ER.PNG)
